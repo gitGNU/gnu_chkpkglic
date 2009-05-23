@@ -1,0 +1,12 @@
+The objective of this project is to help people verify the freedom of a 
+software project. The methods used will consist of scripts written 
+around commonly used software on GNU/Linux.
+
+If you have questions, ask the Savannah Hackers, since this project will
+get most of the help and criticism from their mailing list.
+
+So far the requirements:
+
+	find_notice.sh:
+	grep
+	POSIX shell scripting environment
