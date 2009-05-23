@@ -14,6 +14,10 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
 # The alternative of this script is to run this from the command line.
 
 # grep -r -l -f ${sdir}${license}_notice --exclude-from=${sdir}exclude_files ${dir} > ${dir}.$license.type
