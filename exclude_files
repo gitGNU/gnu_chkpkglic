@@ -1,0 +1,11 @@
+*.dsp
+*.dsw
+*.vcproj
+*.sln
+*.mo
+*.gif
+*.png
+*.jpeg
+*.jpg
+*.bin
+*.o
