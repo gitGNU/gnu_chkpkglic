@@ -1,0 +1,38 @@
+SUMMARY
+
+The design focuses on creating stupid, local scripts as a way to help 
+verify freedom compliance of the software package.
+
+EXPECTATIONS
+
+1. The scripts should be able to differentiate what type of licenses are 
+used by the files in the package.
+
+2. It should allow the user to confirm that those files really are using 
+those licenses. Ask the user if the script should claim it a) complies , 
+b) does not comply , c) or skip to confirm another time.
+
+3. Verifying freedoms takes a very long time so, there should be way to 
+continue a previous session in case the user decides to quit during the 
+process.
+
+REQUIREMENTS
+
+GNU grep, GNU Less, GNU coreutils
+
+METHOD
+
+1. To complete Expectation 1, the script uses the grep command to 
+organize the files into a list by notice type. The list is outputed to a 
+file called something like, projectName_bsd_type.
+
+2. There should be a way to put the list of files into an array, to 
+bring up files automatically with the pager to allow the user to view 
+the license notice. After viewing the file, hopefully the user recalls 
+whether file complies or not to answer the interactive question, that 
+are used to further organize the files between non-compliant and 
+compliant.
+
+RESOURCES
+
+
